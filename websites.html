@@ -5,18 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Websites | HiRise Collective</title>
   <meta name="description" content="Websites built for modern business. Look right, work on a phone, make the next step obvious.">
-  <meta name="theme-color" content="#0B1220">
+  <meta name="theme-color" content="#10141C">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="logo" href="index.html">HiRise</a>
+      <a class="logo" href="index.html">
+        <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#14130F"/><rect x="6" y="18" width="5" height="8" rx="1" fill="#1E4ED8"/><rect x="13.5" y="12" width="5" height="14" rx="1" fill="#F3EEE4"/><rect x="21" y="6" width="5" height="20" rx="1" fill="#1E4ED8"/></svg>
+        <span>HiRise</span>
+      </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
         <span class="sr-only">Open menu</span>
         <span class="bar" aria-hidden="true"></span>
@@ -39,18 +42,19 @@
     </div>
   </header>
   <main id="main">
-    <section class="page-hero">
+    <section class="page-hero band-dark">
       <div class="wrap">
+        <p class="eyebrow">Websites</p>
         <h1>Websites built for modern business.</h1>
         <p class="support">It should look right, work on a phone, and make the next step obvious.</p>
       </div>
     </section>
 
-    <section class="section" style="padding-top: 2vh;">
+    <section class="section">
       <div class="wrap split">
         <div>
           <p class="label">What we build</p>
-          <ul class="plain">
+          <ul class="chip-list">
             <li>Business sites</li>
             <li>Service sites</li>
             <li>E-commerce</li>
@@ -62,7 +66,7 @@
         </div>
         <div>
           <p class="label">Standard</p>
-          <ul class="plain">
+          <ul class="chip-list">
             <li>Responsive</li>
             <li>Mobile</li>
             <li>SEO fundamentals</li>
@@ -78,6 +82,7 @@
 
     <section class="section band-paper">
       <div class="wrap">
+        <p class="label">Process</p>
         <ol class="process process-six">
           <li>
             <h3>Discovery</h3>
@@ -107,7 +112,7 @@
       </div>
     </section>
 
-    <section class="section close">
+    <section class="section band-dark close">
       <div class="wrap">
         <h2>Let’s build something better.</h2>
         <div class="actions">
@@ -117,14 +122,32 @@
     </section>
   </main>
   <footer class="site-footer">
-    <div class="wrap footer-inner">
-      <a class="logo" href="index.html">HiRise</a>
-      <nav class="footer-nav" aria-label="Footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="index.html">
+          <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#F3EEE4"/><rect x="6" y="18" width="5" height="8" rx="1" fill="#1E4ED8"/><rect x="13.5" y="12" width="5" height="14" rx="1" fill="#10141C"/><rect x="21" y="6" width="5" height="20" rx="1" fill="#1E4ED8"/></svg>
+          <span>HiRise</span>
+        </a>
+        <p>Websites, social, and the systems around them.</p>
+      </div>
+      <nav class="footer-col" aria-label="Services">
+        <p class="footer-label">Services</p>
         <a href="websites.html">Websites</a>
         <a href="social.html">Social Media</a>
         <a href="growth.html">Digital Growth</a>
-        <a class="btn" href="start.html">Start a Project</a>
       </nav>
+      <nav class="footer-col" aria-label="Studio">
+        <p class="footer-label">Studio</p>
+        <a href="work.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="start.html">Start a project</a>
+      </nav>
+      <div class="footer-col">
+        <p class="footer-label">Contact</p>
+        <a href="mailto:hello@hirisecollective.com">hello@hirisecollective.com</a>
+      </div>
+    </div>
+    <div class="wrap footer-base">
       <p class="footer-copy">© 2026 HiRise Collective</p>
     </div>
   </footer>
