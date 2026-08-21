@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Start a Project | HiRise Collective</title>
+  <meta name="description" content="Start a project with HiRise Collective.">
+  <meta name="theme-color" content="#0B1220">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="logo" href="index.html">HiRise</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Open menu</span>
+        <span class="bar" aria-hidden="true"></span>
+      </button>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <ul>
+          <li><a href="work.html">Work</a></li>
+          <li class="has-sub">
+            <a href="services.html">Services</a>
+            <ul class="subnav">
+              <li><a href="websites.html">Websites</a></li>
+              <li><a href="social.html">Social Media</a></li>
+              <li><a href="growth.html">Digital Growth</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html">About</a></li>
+          <li><a class="btn" href="start.html" aria-current="page">Start a Project</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <main id="main">
+    <section class="page-hero">
+      <div class="wrap">
+        <h1>Start a project.</h1>
+      </div>
+    </section>
+    <section class="section" style="padding-top: 1vh;">
+      <div class="wrap">
+        <form id="project-form" class="form" action="mailto:hello@hirisecollective.com" method="post" enctype="text/plain">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="company">Company</label>
+            <input id="company" name="company" type="text" autocomplete="organization">
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" autocomplete="tel">
+          </div>
+          <div class="field">
+            <label for="website">Website <span class="opt">(optional)</span></label>
+            <input id="website" name="website" type="text" inputmode="url" autocomplete="url">
+          </div>
+          <div class="field">
+            <label for="service">Service needed</label>
+            <select id="service" name="service">
+              <option value="" selected>Choose one</option>
+              <option>Websites</option>
+              <option>Social Media</option>
+              <option>Digital Growth</option>
+              <option>Not sure</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="description">Brief description</label>
+            <textarea id="description" name="description" rows="5"></textarea>
+          </div>
+          <div class="field">
+            <label for="budget">Approximate budget</label>
+            <select id="budget" name="budget">
+              <option value="" selected>Choose a range</option>
+              <option>Under $3,000</option>
+              <option>$3,000 to $8,000</option>
+              <option>$8,000 to $15,000</option>
+              <option>$15,000 and up</option>
+              <option>Prefer not to say</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="timeline">Desired timeline</label>
+            <select id="timeline" name="timeline">
+              <option value="" selected>Choose one</option>
+              <option>As soon as possible</option>
+              <option>Within a month</option>
+              <option>1 to 3 months</option>
+              <option>Flexible</option>
+            </select>
+          </div>
+          <button class="btn" type="submit">Start the Conversation</button>
+          <p class="form-note">Or email <a href="mailto:hello@hirisecollective.com">hello@hirisecollective.com</a></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <a class="logo" href="index.html">HiRise</a>
+      <nav class="footer-nav" aria-label="Footer">
+        <a href="websites.html">Websites</a>
+        <a href="social.html">Social Media</a>
+        <a href="growth.html">Digital Growth</a>
+        <a class="btn" href="start.html">Start a Project</a>
+      </nav>
+      <p class="footer-copy">© 2026 HiRise Collective</p>
+    </div>
+  </footer>
+  <script src="js/site.js"></script>
+</body>
+</html>
