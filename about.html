@@ -5,18 +5,21 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>About | HiRise Collective</title>
   <meta name="description" content="Too many good businesses have a digital presence that does not match the company. HiRise exists to close that.">
-  <meta name="theme-color" content="#0B1220">
+  <meta name="theme-color" content="#10141C">
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400;0,500;0,600;0,700&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/site.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
   <header class="site-header">
     <div class="wrap header-inner">
-      <a class="logo" href="index.html">HiRise</a>
+      <a class="logo" href="index.html">
+        <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="18" width="6" height="10" rx="1.5" fill="currentColor" opacity=".38"/><rect x="13" y="10" width="6" height="18" rx="1.5" fill="currentColor"/><rect x="22" y="4" width="6" height="24" rx="1.5" fill="#5B86FF"/></svg>
+        <span>HiRise</span>
+      </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
         <span class="sr-only">Open menu</span>
         <span class="bar" aria-hidden="true"></span>
@@ -39,29 +42,62 @@
     </div>
   </header>
   <main id="main">
-    <section class="page-hero" style="padding-bottom: 14vh;">
+    <section class="page-hero band-dark">
       <div class="wrap">
+        <p class="eyebrow">The studio</p>
         <h1>Close the gap.</h1>
         <p class="support">Too many good businesses have a digital presence that does not match the company. HiRise exists to close that.</p>
+      </div>
+    </section>
+    <section class="section">
+      <div class="wrap split">
+        <div>
+          <p class="ink">We build websites, run social, and put the systems around a visit in place. The point is simple: the business should look as good online as it does in person.</p>
+          <p>You talk to one person. Work stays close. Nothing is handed off into a void.</p>
+        </div>
         <div class="person">
           <strong>Tyler Nordin</strong>
           <span>Operator. You talk to him.</span>
         </div>
+      </div>
+    </section>
+    <section class="section band-dark close">
+      <div class="wrap">
+        <h2>Ready to raise your digital presence?</h2>
         <div class="actions">
           <a class="btn" href="start.html">Start a Project</a>
+          <a class="btn btn-ghost" href="mailto:hello@hirisecollective.com">Email the studio</a>
         </div>
       </div>
     </section>
   </main>
   <footer class="site-footer">
-    <div class="wrap footer-inner">
-      <a class="logo" href="index.html">HiRise</a>
-      <nav class="footer-nav" aria-label="Footer">
+    <div class="wrap footer-grid">
+      <div class="footer-brand">
+        <a class="logo" href="index.html">
+          <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><rect x="4" y="18" width="6" height="10" rx="1.5" fill="currentColor" opacity=".38"/><rect x="13" y="10" width="6" height="18" rx="1.5" fill="currentColor"/><rect x="22" y="4" width="6" height="24" rx="1.5" fill="#5B86FF"/></svg>
+          <span>HiRise</span>
+        </a>
+        <p>Websites, social, and the systems around them.</p>
+      </div>
+      <nav class="footer-col" aria-label="Services">
+        <p class="footer-label">Services</p>
         <a href="websites.html">Websites</a>
         <a href="social.html">Social Media</a>
         <a href="growth.html">Digital Growth</a>
-        <a class="btn" href="start.html">Start a Project</a>
       </nav>
+      <nav class="footer-col" aria-label="Studio">
+        <p class="footer-label">Studio</p>
+        <a href="work.html">Work</a>
+        <a href="about.html">About</a>
+        <a href="start.html">Start a project</a>
+      </nav>
+      <div class="footer-col">
+        <p class="footer-label">Contact</p>
+        <a href="mailto:hello@hirisecollective.com">hello@hirisecollective.com</a>
+      </div>
+    </div>
+    <div class="wrap footer-base">
       <p class="footer-copy">© 2026 HiRise Collective</p>
     </div>
   </footer>
